@@ -9,3 +9,6 @@ Visualize A Git Project, show developer's contribution and connections with comp
  2. ./bin/ubigraph_server   (start the Ubigraph render server)
 
  3. ./gitshow.py log.txt    (render commit log)
+
+# Ubigraph
+You can download Ubigraph at [this page](http://www.ubietylab.net/ubigraph/index.html).

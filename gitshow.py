@@ -19,7 +19,6 @@ EdgeList = set()
 tinyred = G.new_vertex_style(0)
 greenedge = G.new_edge_style(0)
 
-
 def getNode(name, type):
     if NodeList.has_key(name):
         return NodeList[name]
@@ -116,4 +115,17 @@ def ShowLog(logName):
                 print num, length
                 print "%.2f"%(float(num) / float(length))
 
-ShowLog("log.txt")
+
+def usage():
+    print """gitshow.py: render git commit log
+./gitshow.py <logfile> """
+    sys.exit(0)
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        usage()
+    elif sys.argv[1] == "-h" or sys.argv[1] == "-help":
+        usage()
+    else:
+        logfile = sys.argv[1]
+        ShowLog(logfile)
