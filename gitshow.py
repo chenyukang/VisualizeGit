@@ -26,7 +26,7 @@ def getNode(name, type):
         new_node = G.new_vertex()
         if type == "user":
             node_color = user_color
-            font_color = "#ffff00"
+            font_color = "#cbedbe"
         else:
             node_color = comp_color
             font_color = "#ff0000"

@@ -23,6 +23,7 @@ class GitStat
   end
 
   def detect_gits()
+    ## TODO
     puts "detect_gits"
   end
 
