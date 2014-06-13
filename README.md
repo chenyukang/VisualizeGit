@@ -1,4 +1,4 @@
-VisualizeGitProj
+VisualizeGit
 ================
 
 Visualize A Git Project, show developer's contribution and connections with components. Using Ubigraph for rendering.
